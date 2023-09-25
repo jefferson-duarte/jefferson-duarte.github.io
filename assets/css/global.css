@@ -9,34 +9,38 @@ body { line-height: 1.5; min-height: 100vh }
 img { width: 100%; height: auto; display: block }
 input, button, textarea, select { font: inherit }
 
-/* ====== PADDING AROUND CONTENT ======  */
-/* Desktops/Laptops */
-@media (min-width: 768px) { body { padding: 4% 20% } }
+/* ================= ENDS ================ */
 
-/* Mobiles */
-@media (max-width: 767px) { body { padding: 12% 8% } }
+body {
+    text-align: center;
+    font-family: sans-serif;
+}
 
 h1 {
-    font-size: 84px;
-    text-align: center;
+    font-size: 78px;
     font-weight: normal;
     letter-spacing: -2px;
-    margin-bottom: 32px;
+    margin-bottom: 12px;
+    line-height: 1.2;
 }
 
 h2 {
-    font-size: 36px;
-    margin-bottom: 4px;
+    font-size: 42px;
+    letter-spacing: 6px;
+    margin-bottom: 48px;
+    line-height: 1.2;
 }
 
 h3 {
     font-size: 24px;
-    margin-bottom: 4px;
+    margin-top: 48px;
+    margin-bottom: 20px;
+    line-height: 1.2;
+    text-transform: uppercase;
 }
 
 p {
-    font-size: 18px;
-    font-family: sans-serif;
-    line-height: 1.6;
-    margin-bottom: 20px;
+    font-size: 20px;
+    margin-bottom: 16px;
 }
+
