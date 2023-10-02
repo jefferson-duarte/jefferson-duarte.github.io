@@ -12,6 +12,7 @@ input, button, textarea, select { font: inherit }
 /* ================= ENDS ================ */
 
 body {
+    background-color: lightgreen;
     text-align: center;
     font-family: sans-serif;
 }
@@ -44,3 +45,4 @@ p {
     margin-bottom: 16px;
 }
 
+a { color: darkgreen; }

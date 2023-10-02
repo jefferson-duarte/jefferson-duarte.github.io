@@ -9,6 +9,8 @@ body { line-height: 1.5; min-height: 100vh }
 img { width: 100%; height: auto; display: block }
 input, button, textarea, select { font: inherit }
 
+body { background-color: purple; }
+
 /* ====== PADDING AROUND WEB PAGE BODY CONTENT ======  */
 /* Desktops */
 @media (min-width: 768px) {
@@ -33,11 +35,13 @@ h1 {
     font-weight: normal;
     letter-spacing: -2px;
     margin-bottom: 32px;
+    color: white;
 }
 
 h2 {
     font-size: 36px;
     margin-bottom: 4px;
+    color: white;
 }
 
 h3 {
@@ -50,4 +54,7 @@ p {
     font-family: sans-serif;
     line-height: 1.6;
     margin-bottom: 20px;
+    color: white;
 }
+
+a { color: white; }
