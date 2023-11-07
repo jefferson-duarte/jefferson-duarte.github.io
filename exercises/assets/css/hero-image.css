@@ -24,13 +24,12 @@ body {
 
 .hero-block {
     min-height: 500px;
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* Purple to orange - modern */  
-    background-image: linear-gradient(90deg,#ff00cc,#333399);
-    /* dark Blue  */ 
-    background-image: linear-gradient(90deg,#07092f,#165cc0);
+    background-color: gray;
+    overflow: none;
 }
 
 
@@ -38,11 +37,30 @@ body {
     .hero-block { height: 80vh }
 }
 
-.hero-text-container { padding: 0 12% 4% 12% }
+.hero-text-container { 
+    padding: 0 12% 4% 12%;
+    z-index: 2;
+}
+
+.hero-bg-media {
+    position: absolute; top: 0; right: 0; bottom: 0; left: 0; 
+    z-index: 0;
+}
+
+.hero-bg-media img {
+    object-fit: cover; width: 100%; height: 100%;
+}
+
+.bg-overlay {
+    position: absolute; top: 0; right: 0; bottom: 0; left: 0;  
+    z-index: 1;
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3));   
+}
 
 .hero-block h1, .hero-block h2 {
     line-height: 1.2;
     color:#fff;
+    text-shadow: 2px 2px #222; 
 }
 
 .hero-block h1 {
