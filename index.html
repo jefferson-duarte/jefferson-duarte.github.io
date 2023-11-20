@@ -1,59 +1,154 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
     <meta charset="UTF-8">
-    <meta name="robots" content="noindex">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jefferson Duarte | Creative Digital Designer</title>
-    <meta name="description" content="Hi I'm Mary, a UI & UX designer based in Dublin. Mobile and Responsive Web Design, eCommerce Websites, Branding and Logo Design.">
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/apple-touch-icon.png">    
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/img//favicon-32x32.png">    
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/img//favicon-16x16.png">    
-    <link rel="manifest" href="assets/img/site.webmanifest">
-    <link rel="stylesheet" href="/assets/css/global.css">
+    <title>Sample Web Page Title</title>
+    <meta name="description" content="Sample web page description goes here.">
 
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-49819MZZH8"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
+	<!-- Preload large image -->
 
-        gtag('config', 'G-49819MZZH8');
-    </script>
+	<!-- Stylesheets -->
+    <link rel="stylesheet" href="https://lunevedy.com/assets/2.0/css/lunevedy.min.css" />
+    <link rel="stylesheet" href="assets/css/custom.css" />
+
+	<!-- Google Fonts -->
+
+    <!-- Font Awesome 6 icons. Delete if not using. -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 </head>
+
+
 <body>
 
-    <h1>Hi, I'm Jefferson Duarte</h1>
+    <!-- menu and 'hero block' header -->
+    <nav class="theme-light"><div class="container-menu">
+        <a href="#" class="brand">
+            <img src="https://lunevedy.com/ui/assets/img/website-logo-sample.png" alt="Sample website logo">
+        </a>
+    
+        <div class="container-menu-links">
+    
+            <div class="nav-toggle" id="nav-toggle-btn">
+                <div class="bar-1"></div>
+                <div class="bar-2"></div>
+                <div class="bar-3"></div>
+            </div>
+    
+            <ul class="links-wrapper">
+                <li><a href='../index.html'>Home</a></li>
+                <li><a href="../portifolio/index.html">Portfolio</a></li>
+                <li><a href="../store/index.html">Store</a></li>
+                <li><a class="btn btn-solid btn-soft" id="btn-cta" href="../contact/index.html"><span>Contact</span> <i class="fa-regular fa-envelope"></i></a></li>
+            </ul>
+        </div></div></nav>
+    
+           <!-- header starts here -->
+    
+        <header class="theme-light cols-2-half text-center-mobile">
+    
+            <div class="col-2 col-text">
+                <div class="badge">WELCOME</div>
+                <h1>Mary Smith</h1>
+                <h2>I am an innovative front-end developer who loves to build human-friendly interfaces.</h2>
+    
+                <div class="container-btn">
+                    <a href="portfolio/index.html" class="btn btn-solid btn-soft"><span>View my work</span><i class="fa-regular fa-folder-open"></i></a><a href="../contact/index.html" class="btn btn-outline btn-soft"><span>Get in touch</span><i class="fa-regular fa-envelope"></i></a>
+                </div>
+    
+            </div>
+    
+            <div class="col-2 col-visual">
+                <figure>
+                    <img src="https://lunevedy.com/ui/assets/img/1024x618-shopping-bag.jpg" alt="Placeholder image">
+                </figure>
+            </div>
+    
+        </header>
+    
+    
+        <!-- header ends here -->
+    
+    <!-- main content with sections -->
+    <main>
 
-    <h1>Purple Pixels Web Agency</h1>
+	<!-- section starts here -->
 
-    <h2>Web / UI Designer</h2>
+    <section class="theme-light section-selector-1 w-1356px">
 
-    <h2>Digital Marketing for your business</h2>
+		<div class="col-1 text-center w-820px">
+			<h2>Recent projects</h2>
+			<h3>Below you can see some examples of my recent work. Check out my complete portfolio of <a href="portfolio/index.html">web design</a> projects. Have a project you would like to discuss? <a href="../contact/index.html">Let's make something great together!</a> </h3>
+		</div>
 
-    <p>I created this website to showcase some of my recent web design work.</p> 
+		<!-- Begin three-column flexbox grid -->
+		<div class="flex-cols-3 cols-gap-4">
 
-    <h3>Simpla Web Pages</h3>
+			<div class="col-3">
+				<figure class="photos-zoom photos-brightness" style="overflow: hidden;">
+					<a href="portfolio/project-hero/index.html"><img src="assets/img/project-hero.png" alt="Hero block gallery project"></a>
+				</figure>
+				<h3>Hero Block Gallery</h3>
+				<p>A gallery of hero block elements with split-screen layouts and duotone images.</p>
+				<a href="portfolio/project-hero/index.html" class="btn btn-solid"><span>View project</span><i class="fas fa-arrow-right"></i></a>
+			</div>
 
-    <p><a href="exercises/page-1.html">A Tale of Two Cities</a></p>
-    <p><a href="exercises/page-2.html">Purple Rain</a></p>
-    <p><a href="exercises/page-3.html">Web page with sections</a></p>
-    <p><a href="exercises/page-4.html">Vincent van Gogh</a></p> 
-    <p><a href="exercises/page-5.html">Irish Tourism</a></p> 
-    <p><a href="exercises/page-6.html">Smoothies</a></p> 
-    <p><a href="exercises/page-7.html">Software Analytics</a></p>
-    <p><a href="exercises/page-8.html">The Box Model</a></p>
-    <p><a href="exercises/page-9.html">Web Page With Panels</a></p>
-    <p><a href="exercises/flexbox-sample.html">Responsive grid of rows and columns</a></p>
-    <p><a href="exercises/page-10.html">Web Page With Google Fonts</a></p>
-    <p><a href="exercises/hero-text.html">Hero block with animated text</a></p>
-    <p><a href="exercises/hero-image.html">Hero block with background image</a></p>
-    <p><a href="exercises/hero-video.html">Hero block with background video</a></p>
+            
+			<div class="col-3">
+				<figure class="photos-zoom photos-brightness" style="overflow: hidden;">
+					<a href="portfolio/fashion/index.html"><img src="assets/img/project-fashion.jpg" alt="Fashion retailer project"></a>
+				</figure>
+				<h3>Snazzy Fashion</h3>
+				<p>A web page for a fashion retailer with a background video that plays in a continuous loop.</p>
+				<a href="portfolio/fashion/index.html" class="btn btn-solid"><span>View project</span><i class="fas fa-arrow-right"></i></a>
+			</div>
 
-    <img src="assets/img/football.jpg" alt="foosball">
+			<div class="col-3">
+				<figure class="photos-zoom photos-brightness" style="overflow: hidden;">
+					<a href="portfolio/smoothies/index.html"><img src="assets/img/project-smoothie.jpg" alt="Placeholder image"></a>
+				</figure>
+				<h3>Smooth Smoothies</h3>
+				<p>A multi-column, flexbox-based page layout and hero image with a tinted overlay.</p>
+				<a href="portfolio/smoothies/index.html" class="btn btn-solid btn-soft"><span>View project</span><i class="fas fa-arrow-right"></i></a>
+			</div>
+
+		</div>
+		<!-- End three-column flexbox grid -->
+
+	</section>
+
+	<!-- section ends here -->
+
+    </main>
+
+    <!-- footer -->
+ 
+	<footer class="theme-dark text-center-desktop text-center-mobile">
+
+		<h2>Mary Smith</h2>
+
+		<h3>Front-end designer and developer</h3>
+
+		<ul class="footer-links">
+			<li><a href='../index.html'>Home</a></li>
+			<li><a href="../portifolio/index.html">Portfolio</a></li>
+			<li><a href="../store/index.html">Store</a></li>
+            <li><a href="../contact/index.html">Contact</a></li>
+		</ul>
+
+		<ul class="footer-icons">
+			<li><a href="#" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+			<li><a href="#" target="_blank"><i class="fab fa-github-square"></i></a></li>
+		</ul>
+
+		<p class="privacy"><a href="../privacy.html">Privacy &amp; Legal</a></p>
+
+	</footer>
+
+    <script src="https://lunevedy.com/assets/js/lunevedy.js"></script>
 
 </body>
 </html>
+
