@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Privacy</title>
     <meta name="description" content="Privacy and Legal Statement for this Website">
+    
+    <!-- Styles for Cookie Consent Popup Message  -->
+    <link href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" rel="stylesheet">
+
     <style>
 
         * { margin: 0; padding: 0; border: none }
@@ -153,5 +157,22 @@
     <p>Additional or different terms, conditions, and notices may apply to specific materials, information, products, software, and services offered through this website. In the event of any conflict, such additional or different terms, conditions, and notices will prevail over these Terms of Use. Please see the applicable agreement or notice.</p>
 
 
+    <!-- JavaScript for Cookie Consent Popup Message -->
+    <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
+    <script>
+    window.cookieconsent.initialise({
+        "palette": {
+            "popup": {
+                "background": "#000"
+            },
+            "button": {
+                "background": "#f1d600"
+            }
+        },
+        "content": {
+            "href": "https://jefferson-duarte.github.io/privacy.html"
+        }
+    });
+    </script>
 </body>
 </html>
